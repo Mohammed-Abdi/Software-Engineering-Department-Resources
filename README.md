@@ -33,4 +33,4 @@ You can get a local copy by running the following command in your terminal:
 git clone https://github.com/Mohammed-Abdi/Software-Engineering-Department-Resources.git
 ```
 
-### Maintained by the **Software Engineering Students at Dire Dawa University**.
+### ⚙️ Maintained by the **Software Engineering Students at Dire Dawa University**.
