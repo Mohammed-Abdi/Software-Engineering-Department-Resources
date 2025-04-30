@@ -1,6 +1,6 @@
 # 💻 Software Engineering Department Courses
 
-Welcome to the official repository for 📚 **Software Engineering Department** courses from **Year 2** to **Year 5**, organized by academic year and semester 📆.
+Welcome to the official repository for 📚 **Software Engineering Department** courses from **2nd Year** to **5th Year**, organized by academic year and semester 📆.
 
 ---
 
