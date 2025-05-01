@@ -157,7 +157,11 @@ void deleteLast(){
     if(start == NULL){
         cout << "Empty Linked List";
     } else {
-        struct student *newPointer, *newPointer1;
+        if(start -> link == NULL){
+            delete start;
+            start = NULL;
+        } else {
+            struct student *newPointer, *newPointer1;
         newPointer = start;
 
         while(newPointer -> link != NULL){
@@ -167,7 +171,8 @@ void deleteLast(){
 
         newPointer1 -> link = NULL;
         delete newPointer;
-        cout << "\nLast Student deleted Successfully\n";
+    }
+    cout << "\nLast Student deleted Successfully\n";
     }
 }
 //Searchs a student record by ID and displays it
@@ -208,7 +213,7 @@ int main(){
     int choice;
     cout << "Welcome To Student Registering System\n";
     do{
-        cout << "\n1. Insert Student Info InFront\n2. Insert Student Info InBack \n3. Display Students Info\n4. Delete First Student Info\n5. Delete Last Student Info\n6. Search Student\n7. Exit\n\nChoose [1 - 4]: ";
+        cout << "\n1. Insert Student Info InFront\n2. Insert Student Info InBack \n3. Display Students Info\n4. Delete First Student Info\n5. Delete Last Student Info\n6. Search Student\n7. Exit\n\nChoose[1 - 4]: ";
         cin >> choice;
         switch(choice){
             case 1: insertStudentInfoInFront();
