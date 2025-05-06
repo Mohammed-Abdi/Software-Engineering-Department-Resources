@@ -14,7 +14,7 @@ Welcome to the official repository for 📚 **Software Engineering Department** 
 
 ## 🚀 Contents
 
-Each year has **2 semesters**, and each course will have its own folder with:
+Each year has **2 semesters**, and each course will have its own:
 
 - 📝 Lecture notes
 - 📂 Assignments
